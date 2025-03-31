@@ -101,6 +101,10 @@ def main():
 
     return save_directory  
 
+
+
 save_directory = main()
 
+with open("save_directory.txt", "w") as f:
+    f.write(save_directory)
 
