@@ -30,6 +30,7 @@ class WebScraping:
         try:
             self.driver.get(self.url)
             self.driver.implicitly_wait(10)
+            
         except Exception as e:
             raise ValueError(f"Error accessing the site: {e}")
 
