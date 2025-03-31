@@ -13,7 +13,7 @@ else:
     print(f"Arquivo {save_directory_path} não encontrado. Certifique-se de que WebScraping.py foi executado antes.")
     exit()
 
-PDF_PATH = os.path.join(save_directory, 'Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf')  completo do PDF
+PDF_PATH = os.path.join(save_directory, 'Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf')  
 
 class DataTransformation:
     def __init__(self, pdf_path, csv_output_path):
