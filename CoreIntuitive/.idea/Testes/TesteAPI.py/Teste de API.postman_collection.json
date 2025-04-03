@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "358896d5-082a-40d0-b78e-22a0d1d1168d",
+		"name": "Teste de API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43704244"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/search?query=ADRESS",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search?query=ADRESS",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "ADRESS"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
